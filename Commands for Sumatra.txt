@@ -1,0 +1,12 @@
+Commands for Sumatra
+
+del outputs\fuzzing.db
+
+g++ -O2 fuzzer_final.cpp -o fuzzer.exe -I sqlite3/include -L sqlite3/lib -lsqlite3
+
+fuzzer.exe sumatrapdf.exe 100
+fuzzer.exe
+
+
+
+
