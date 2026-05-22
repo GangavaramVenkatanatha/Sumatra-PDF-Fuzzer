@@ -56,8 +56,8 @@ Includes a live web dashboard backed by a C++ HTTP server and SQLite database fo
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/GangavaramVenkatanatha/Sumatra-PDF-Fuzzer.git
+cd Sumatra-PDF-Fuzzer
 ```
 
 ### 2. Place Required Files
@@ -79,6 +79,8 @@ Place at least one valid PDF into the seeds folder:
 
 ```
 inputs\seeds\sample.pdf
+
+If you need the seed files(inputs) you have them in the releases of this repository, named as inputs... As it is large i have uploaded it in the releases section.
 ```
 
 > The fuzzer will not start without at least one seed PDF.
